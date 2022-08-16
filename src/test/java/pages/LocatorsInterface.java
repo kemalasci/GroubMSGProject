@@ -16,7 +16,7 @@ public interface LocatorsInterface {
     By automotiveConsultingTitel = By.xpath("(//span[text()='Auto\u00ADmo\u00ADtive Consulting:'])[1]");
 
     By themenServicesMenuItem= By.xpath("(//li[@class='sp-menu-item sp-has-child main-menu'])[2]");
-    By testQualityManagementItem= By.xpath(" (//li[@class='sp-menu-item sp-has-child'])[24]");
+    By testQualityManagementItem= By.xpath("(//a[@href='/services/test-quality-management'])[1]");
     By crowdTestingItem= By.xpath("(//a[text()='Crowdtesting'])[1]");
     By digitalBusinessTitle = By.xpath("(//h3[@class='sppb-addon-title'])[1]");
     By socialMediaList=By.cssSelector("ul.social-icons>li");

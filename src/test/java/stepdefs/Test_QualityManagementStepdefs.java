@@ -18,6 +18,7 @@ public class Test_QualityManagementStepdefs extends BaseClass implements Locator
 
     @Then("MSG  Test & Quality Management should be scroll")
     public void msgTestQualityManagementShouldBeScroll() throws InterruptedException {
+        sleep(2);
         scrollTo(testQualityManagementItem);
     }
 

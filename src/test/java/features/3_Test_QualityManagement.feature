@@ -11,7 +11,3 @@ Feature:MSG Themen & Services page functionality
     #
 
    #
-   #User should be able to go to Usu It Service Management web page
-  #  And The user should be able to fill the web presentation form
-  #  Then the user should be able to click the Submit button
-  #
